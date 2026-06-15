@@ -1,0 +1,40 @@
+.table{
+    width: 100%;
+    
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr{
+    height: 40px;
+}
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+td{
+    font-size: 14px;
+}
+.select_item{
+    font: inherit;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+.sort{
+    display: flex;
+    justify-content: space-between;
+}
+.img_container{
+    display: flex;
+}
+.img_container img{
+    transition: all 100ms ease-out;
+}
+.img_container img:hover{
+    transform: scale(1.15);
+    cursor: pointer;
+}
